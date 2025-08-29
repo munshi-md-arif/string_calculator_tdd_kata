@@ -2,19 +2,19 @@
 
 ## Overview
 
-This repository contains my solution to the String Calculator Kata, implemented in Dart using Test-Driven Development (TDD) as part of the Incubyte Technical Assessment (completed on 29th August 2025).
+This repository contains a carefully crafted solution to the String Calculator Kata, implemented in Dart following the principles of Test-Driven Development (TDD) as part of the Incubyte Technical Assessment, completed on August 29, 2025.
 
-- The focus of this project goes beyond solving the kata — it highlights:
+Beyond simply solving the kata, this project emphasizes:
 
-- Mastery of TDD (Red → Green → Refactor) with incremental, test-driven progress
+A disciplined TDD approach, clearly following the Red → Green → Refactor cycle with incremental and verifiable progress at each step.
 
-- Readable, maintainable, and clean code that follows software craftsmanship principles
+Writing clean, readable, and maintainable code that embodies software craftsmanship values.
 
-- Frequent, meaningful commits to demonstrate the evolution of the solution step by step
+Detailed and frequent commits that document the development journey, illustrating thoughtfulness and continuous refinement.
 
-- Robust handling of edge cases such as custom delimiters and negative inputs
+Robust handling of all specified edge cases, including support for custom delimiters and comprehensive validation of negative inputs with informative exception messages.
 
-🎯 The goal is to showcase software that is simple, correct, and elegant while reflecting the values of craftsmanship and continuous improvement.
+The objective is to deliver a solution that balances simplicity, correctness, and elegance while showcasing commitment to quality software development and continuous improvement.
 
 ## Features
 
@@ -35,8 +35,6 @@ This repository contains my solution to the String Calculator Kata, implemented 
 Clone the repository:
 
 git clone https://github.com/munshi-md-arif/string_calculator_tdd_kata.git
-
-- cd string_calculator
 
 ## Get dependencies:
 
