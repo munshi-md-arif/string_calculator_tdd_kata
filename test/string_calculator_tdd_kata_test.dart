@@ -11,5 +11,9 @@ void main() {
       final calculator = StringCalculator();
       expect(calculator.add('1'), equals(1));
     });
+    test('returns sum for two numbers', () {
+      final calculator = StringCalculator();
+      expect(calculator.add('1,5'), equals(6));
+    });
   });
 }
