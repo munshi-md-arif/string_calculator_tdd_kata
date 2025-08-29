@@ -10,6 +10,10 @@ class StringCalculator {
     }
     final cleaned = numString.replaceAll('\n', delimiter);
     final splitNumbers = cleaned.split(delimiter);
-    return splitNumbers.map(int.parse).reduce((a, b) => a + b);
+    final numList = splitNumbers.map(int.parse).toList();
+    final negatives = numList.where((n) => n < 0).toList();
+    if (negatives.isNotEmpty)
+      throw Exception('negative numbers not allowed ${negatives.join(',')}');
+    return numList.reduce((a, b) => a + b);
   }
 }

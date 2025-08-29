@@ -4,5 +4,5 @@ import 'package:string_calculator_tdd_kata/string_calculator_tdd_kata.dart';
 
 void main() {
   final calculator = StringCalculator();
-  print(calculator.add('//;\n1;2;32'));
+  print(calculator.add('-1,-2,-3'));
 }
