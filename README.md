@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a carefully crafted solution to the String Calculator Kata, implemented in Dart following the principles of Test-Driven Development (TDD) as part of the Incubyte Technical Assessment, completed on August 29, 2025.
+This repository contains a carefully crafted solution to the String Calculator Kata, implemented in Dart following the principles of Test-Driven Development (TDD) as part of the Incubyte Technical Assessment, completed on September 11, 2025.
 
 Beyond simply solving the kata, this project emphasizes:
 
